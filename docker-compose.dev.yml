@@ -20,7 +20,8 @@ services:
     volumes:      
       - ./next-app/app:/app/app      
       - ./next-app/public:/app/public    
-      - ./next-app/components:/app/components
+      - ./next-app/components:/app/components      
+      - ./next-app/package.json:/app/package.json
       
       
 
