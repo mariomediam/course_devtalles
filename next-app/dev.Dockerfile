@@ -19,8 +19,8 @@ COPY components ./components
 COPY .eslintrc.json .
 COPY next-env.d.ts .
 COPY next.config.js .
-COPY package-lock.json .
 COPY package.json .
+# COPY package-lock.json .
 COPY postcss.config.js .
 COPY tailwind.config.ts .
 COPY tsconfig.json .
