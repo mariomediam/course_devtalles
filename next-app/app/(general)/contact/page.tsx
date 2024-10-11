@@ -1,7 +1,8 @@
+import type { Metadata } from "next";
 
-export const metadata = {
+export const metadata: Metadata = {
  title: 'Contact Page',
- description: 'Description of the contact page',
+ description: 'Esta es la página de contacto de la empresa',
 };
 
 
@@ -10,5 +11,5 @@ export default function ContactPage() {
     <>
       <span className="text-7xl">Contact Page</span>
     </>
-  );
+  )
 }
